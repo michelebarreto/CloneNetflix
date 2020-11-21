@@ -1,0 +1,43 @@
+*{/* aqui informa que todo elemento da pagina ira ter essas características*/
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+/*aqui é no root é a forma de se declarar uma variavel dentro do css*/
+:root{
+    --vermelho:#E50914;
+    --preta:#141414; 
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+header .container{
+    display: flex;/*aqui está alinhando os elementos em tela*/
+    flex-direction: row;
+    align-items: center;/*centraliza os itens*/
+    justify-content: space-between;/*justifica os elementos de forma horizontal*/
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    
+}
+header nav a{
+    text-decoration: none;/*remove as linhas*/
+    color: #AAA;
+    margin-right: 10px;/*margem a direita*/
+}
+
+header nav a:hover{/*hover siguinifica reparar o evento, quando o mouse passar no elemento vai ficar branco*/
+    color: #fff;
+
+}

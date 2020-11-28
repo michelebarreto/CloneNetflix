@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylo.css">
+    <link rel="stylesheet" href="./stylo/stylo.css">
+    <!--Link do stylo OWL CSS-->
+    <link rel="stylesheet" href="stylo/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="stylo/owl/owl.theme.default.min.css">
+  <!-- parte da responsividade-->
+  <link rel="stylesheet" href="/stylo/responsive.css">
+
     <title>Clone Netflix</title>
 </head>
 
@@ -27,23 +33,60 @@
     </header>
     <main>
         <div class="filme-principal">
-            <div class="class container">
+            <div class="container">
                 <h3 class="titulo">The Witcher</h3>
                 <p class="descricao">O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu
                     lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.</p>
                 <div class="botoes">
                     <button role="button" class="botao"><i class="fas fa-play"></i>
-                    ASSISTIR AGORA
-                   </button>
+                        ASSISTIR AGORA
+                    </button>
                     <button role="button" class="botao"><i class="fas fa-info-circle"></i>
-                    MAIS INFORMAÇÔES</button>
+                        MAIS INFORMAÇÔES</button>
                 </div>
             </div>
         </div>
     </main>
-    <!-- Aqui esta referenciando um link javascript externo para usar os icones-->
-    <script src="https://kit.fontawesome.com/9d690057c3.js" crossorigin="anonymous"></script>
-    <script src="<script src="></script>
+    <div class="carrosel-filmes">
+    <h1>Minhas Series Favoritas</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item"> 
+            <img class="box-filmes" src="img/minisupernatural.jpg" alt="" srcset="">
+            </div>
+            <div class="item"> 
+            <img class="box-filmes" src="img/miniGot.jpg" alt="" srcset="">
+            </div>
+            <div class="item"> 
+            <img class="box-filmes" src="img/minigrimm.jpg" alt="" srcset="">
+            </div>
+            <div class="item"> 
+            <img class="box-filmes" src="img/miniVinkings.jpg" alt="" srcset="">
+            </div>
+            <div class="item"> 
+            <img class="box-filmes" src="img/lacasadepapel.jpg" alt="" srcset="">
+            </div>
+            <div class="item"> 
+            <img class="box-filmes" src="img/Dr.House.jpg" alt="" srcset="">
+            </div>
+            <div class="item"> 
+            <img class="box-filmes" src="img/minibigbang.jpg" alt="" srcset="">
+            </div>
+            <div class="item"> 
+            <img class="box-filmes" src="img/miniLeieOrdem.jpg" alt="" srcset="">
+            </div>
+            <div class="item"> 
+            <img class="box-filmes" src="img/minifriends.jpg" alt="" srcset="">
+            </div>
+
+            </div>
+
+
+            </div>
+            <!-- Aqui esta referenciando um link javascript externo para usar os icones-->
+            <script src="https://kit.fontawesome.com/9d690057c3.js" crossorigin="anonymous"></script>
+            <script src="script/owl/jquery.min.js"></script>
+            <script src="script/owl/owl.carousel.min.js"></script>
+            <script src="/script/owl/script.js"></script>
 </body>
 
 </html>
